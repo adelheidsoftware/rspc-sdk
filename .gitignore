@@ -1,0 +1,24 @@
+/*.md
+!/README.md
+!/AGENTS.md
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store

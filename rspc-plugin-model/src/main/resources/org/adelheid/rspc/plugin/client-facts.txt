@@ -1,0 +1,84 @@
+# What the build checks against the client when it generates no facts of its own: the members that need a permission,
+# the members for development only, and the client's globals, from rs3-api-types at commit 9f151d0 and the client's
+# documentation of its permissions and developer cheats.
+permission Chat.AddMessage chatAccess
+permission Event.ChatMessage chatAccess
+permission HTTPRequest httpAccess
+permission Player.GetTrackingID trackingAccess
+dev-only ExecuteConsoleCommand
+global AABB
+global AchievementDescriptionType
+global AchievementHiddenType
+global AchievementProgressType
+global AnimationDuplicateBehaviour
+global BoxCornerType
+global Camera
+global Chat
+global ChatType
+global CoordFine
+global CoordGrid
+global EntityType
+global Event
+global ExecuteConsoleCommand
+global GameKey
+global GameState
+global GrandExchange
+global GrandExchangeOfferStage
+global GrandExchangeOfferType
+global HTTPRequest
+global HeightOffsetType
+global Inventory
+global Keyboard
+global LocList
+global LocShapeType
+global MapElementHorizontalAlign
+global MapElementTextSize
+global MapElementVerticalAlign
+global Matrix33
+global MiniMenu
+global MiniMenuActionType
+global MiniMenuActionVerbType
+global MiniMenuEntryType
+global ModifierKey
+global Mouse
+global NPCList
+global ObjStackList
+global ObjStackType
+global PersistentDB
+global PersistentDBType
+global Player
+global PlayerList
+global Plugin
+global PluginPermissions
+global PluginResourceLoadResult
+global PostAnimMove
+global PreAnimMove
+global Quaternion
+global QuestDifficulty
+global QuestType
+global Rect
+global RotationType
+global ScreenConvert
+global ShapeData
+global ShapeEntityAlignType
+global ShapeList
+global SkillType
+global SystemKey
+global ValueType
+global Vector2
+global Vector3
+global Vector4
+global World
+global audio
+global clamp
+global config
+global formatStr
+global game
+global id
+global lerp
+global log
+global print
+global random
+global slerp
+global ui
+global var
