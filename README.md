@@ -20,7 +20,7 @@ An RS3 plugin is a folder of Lua 5.4 files with a `plugin.json` manifest. You te
 - **A template plugin** that you copy and rename. It is fully standalone: it needs nothing else from this repository.
 - **A Gradle build** with the tasks a plugin needs: fetch API definitions, link the plugin into the client, copy in the Lua libraries your plugin uses, run tests, check what ships, zip it for Mod.io.
 - **Editor support** through the Lua Language Server, which reads the API's types from what the build fetched.
-- **`AGENTS.md`**, a guide for AI coding agents and people alike: the rules a plugin is reviewed against, its layout, style and workflow. Every plugin made from the template carries a copy.
+- **`AGENTS.md`**, a guide for AI coding agents and people alike: the rules a plugin is reviewed against, its layout, style and workflow.
 
 ## Requirements
 
